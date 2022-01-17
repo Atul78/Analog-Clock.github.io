@@ -1,0 +1,45 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(./img/ghadi3.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    /* background: black; */
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+body{
+    margin: 80px;
+    padding: 0;
+    background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+}
+#hour{
+    width: 1.8%;
+    height: 23.8%;
+    top: 25%;
+    left: 48.85%;
+    background: red;
+}
+
+#minute{
+    width: 1.6%;
+    height:30%;
+    top: 19%;
+    left: 48.9%;
+    background: rgb(209, 46, 73);
+}
+
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    background: rgb(52, 172, 209);
+}  
